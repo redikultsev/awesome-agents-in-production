@@ -155,8 +155,6 @@ The usual failure is a check whose input was produced by the thing being checked
 
 ## When It Reads Untrusted Text
 
-Short on purpose. For depth, read awesome-agent-hardening from [Related Lists](#related-lists).
-
 ### Incidents
 
 - [EchoLeak](https://arxiv.org/abs/2509.10540) - 2025-06. CVE-2025-32711: one email, no clicks, and Microsoft 365 Copilot leaked internal data.
@@ -237,7 +235,6 @@ Numbers here come from studies, not from landing pages.
 
 ## Related Lists
 
-- [awesome-agent-hardening](https://github.com/roselis-lab/awesome-agent-hardening) - Limiting what agents can reach, change and break. The incidents-then-controls format here comes from there.
 - [awesome-evals](https://github.com/benchflow-ai/awesome-evals) - Papers, tools and benchmarks for evaluating agents.
 - [awesome-agent-verification](https://github.com/poponline63/awesome-agent-verification) - Tools for deciding whether agent work is actually done.
 - [Awesome-Reward-Hacking](https://github.com/xhwang22/Awesome-Reward-Hacking) - Research on reward hacking and proxy exploitation.
