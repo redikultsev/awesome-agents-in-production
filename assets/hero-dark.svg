@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Six incidents and the control in code that would have held each one">
+<text x="24" y="40" font-size="22" font-weight="700" fill="#e6edf3">Each of these trusted the model with something code should have held</text>
+<rect x="24" y="64" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="24" y="64" width="4" height="210" rx="2" fill="#f85149"/>
+<text x="42" y="92" font-size="12" font-weight="700" fill="#f85149" letter-spacing="0.6">DATA LOSS</text>
+<text x="301" y="92" font-size="12" fill="#9198a1" text-anchor="end">2025-07</text>
+<text x="42" y="118" font-size="17" font-weight="700" fill="#e6edf3">Replit</text>
+<text x="42" y="144" font-size="14" fill="#e6edf3">Deleted a production database.</text>
+<text x="42" y="163" font-size="14" fill="#e6edf3">The code freeze was a chat message</text>
+<line x1="42" y1="186" x2="301" y2="186" stroke="#30363d"/>
+<text x="42" y="210" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="42" y="234" font-size="14" fill="#e6edf3">Dev and prod separated</text>
+<text x="42" y="253" font-size="14" fill="#e6edf3">by the platform</text>
+<rect x="333" y="64" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="333" y="64" width="4" height="210" rx="2" fill="#ab7df8"/>
+<text x="351" y="92" font-size="12" font-weight="700" fill="#ab7df8" letter-spacing="0.6">LEGAL</text>
+<text x="610" y="92" font-size="12" fill="#9198a1" text-anchor="end">2024-02</text>
+<text x="351" y="118" font-size="17" font-weight="700" fill="#e6edf3">Air Canada</text>
+<text x="351" y="144" font-size="14" fill="#e6edf3">Its chatbot made up a refund rule,</text>
+<text x="351" y="163" font-size="14" fill="#e6edf3">and the airline had to pay for it</text>
+<line x1="351" y1="186" x2="610" y2="186" stroke="#30363d"/>
+<text x="351" y="210" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="351" y="234" font-size="14" fill="#e6edf3">Answers come from policy;</text>
+<text x="351" y="253" font-size="14" fill="#e6edf3">promises pass a gate in code</text>
+<rect x="642" y="64" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="642" y="64" width="4" height="210" rx="2" fill="#f85149"/>
+<text x="660" y="92" font-size="12" font-weight="700" fill="#f85149" letter-spacing="0.6">DATA LOSS</text>
+<text x="919" y="92" font-size="12" fill="#9198a1" text-anchor="end">2026-04</text>
+<text x="660" y="118" font-size="17" font-weight="700" fill="#e6edf3">Railway</text>
+<text x="660" y="144" font-size="14" fill="#e6edf3">An agent found an account-wide</text>
+<text x="660" y="163" font-size="14" fill="#e6edf3">token and deleted a prod volume</text>
+<line x1="660" y1="186" x2="919" y2="186" stroke="#30363d"/>
+<text x="660" y="210" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="660" y="234" font-size="14" fill="#e6edf3">Narrow tokens, and every</text>
+<text x="660" y="253" font-size="14" fill="#e6edf3">delete is undoable for 48 hours</text>
+<rect x="24" y="290" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="24" y="290" width="4" height="210" rx="2" fill="#f0883e"/>
+<text x="42" y="318" font-size="12" font-weight="700" fill="#f0883e" letter-spacing="0.6">QUALITY</text>
+<text x="301" y="318" font-size="12" fill="#9198a1" text-anchor="end">2025-10</text>
+<text x="42" y="344" font-size="17" font-weight="700" fill="#e6edf3">ImpossibleBench</text>
+<text x="42" y="370" font-size="14" fill="#e6edf3">Agents passed tests that contradict</text>
+<text x="42" y="389" font-size="14" fill="#e6edf3">the spec, often by editing them</text>
+<line x1="42" y1="412" x2="301" y2="412" stroke="#30363d"/>
+<text x="42" y="436" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="42" y="460" font-size="14" fill="#e6edf3">Tests the agent can't touch:</text>
+<text x="42" y="479" font-size="14" fill="#e6edf3">read-only or hidden</text>
+<rect x="333" y="290" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="333" y="290" width="4" height="210" rx="2" fill="#f0883e"/>
+<text x="351" y="318" font-size="12" font-weight="700" fill="#f0883e" letter-spacing="0.6">QUALITY</text>
+<text x="610" y="318" font-size="12" fill="#9198a1" text-anchor="end">2025-04</text>
+<text x="351" y="344" font-size="17" font-weight="700" fill="#e6edf3">OpenAI</text>
+<text x="351" y="370" font-size="14" fill="#e6edf3">A sycophantic GPT-4o passed offline</text>
+<text x="351" y="389" font-size="14" fill="#e6edf3">evals and won its A/B test</text>
+<line x1="351" y1="412" x2="610" y2="412" stroke="#30363d"/>
+<text x="351" y="436" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="351" y="460" font-size="14" fill="#e6edf3">An eval for that failure</text>
+<text x="351" y="479" font-size="14" fill="#e6edf3">before the model ships</text>
+<rect x="642" y="290" width="293" height="210" rx="10" fill="#161b22" stroke="#3d444d"/>
+<rect x="642" y="290" width="4" height="210" rx="2" fill="#4493f8"/>
+<text x="660" y="318" font-size="12" font-weight="700" fill="#4493f8" letter-spacing="0.6">DATA LEAK</text>
+<text x="919" y="318" font-size="12" fill="#9198a1" text-anchor="end">2025-06</text>
+<text x="660" y="344" font-size="17" font-weight="700" fill="#e6edf3">Microsoft 365 Copilot</text>
+<text x="660" y="370" font-size="14" fill="#e6edf3">One email, no clicks: Copilot could</text>
+<text x="660" y="389" font-size="14" fill="#e6edf3">be made to send internal data out</text>
+<line x1="660" y1="412" x2="919" y2="412" stroke="#30363d"/>
+<text x="660" y="436" font-size="12" font-weight="700" fill="#3fb950" letter-spacing="0.6">WHAT HOLDS</text>
+<text x="660" y="460" font-size="14" fill="#e6edf3">Never untrusted input, private</text>
+<text x="660" y="479" font-size="14" fill="#e6edf3">data and a way out together</text>
+<text x="24" y="538" font-size="14" fill="#9198a1">The model describes, the code decides. 39 incidents below, each with a primary source and the control that holds.</text>
+</svg>

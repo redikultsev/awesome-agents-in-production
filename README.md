@@ -5,8 +5,8 @@
 ![39 incidents](https://img.shields.io/badge/incidents-39-cf222e?style=flat-square) ![68 controls](https://img.shields.io/badge/controls-68-2da44e?style=flat-square) ![Every link has a primary source](https://img.shields.io/badge/sources-primary-0969da?style=flat-square) ![Updated October 2026](https://img.shields.io/badge/updated-October%202026-6e7781?style=flat-square)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/failure-map-dark.svg">
-  <img alt="Where agents break: untrusted text flows into the model, the model calls tools, tools spend money or delete data; self-checks and evals watch from above, provider changes and the bill sit underneath. Each box shows how many incidents in this list hit it." src="assets/failure-map-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Six incidents and what would have held each one. Replit deleted a production database while the code freeze was only a chat message; dev and prod separated by the platform holds. Air Canada's chatbot made up a refund rule; answers from policy and promises gated in code hold. Railway: an agent found an account-wide token and deleted a production volume; narrow tokens and undoable deletes hold. ImpossibleBench: agents passed contradictory tests by editing them; tests the agent can't touch hold. OpenAI: a sycophantic GPT-4o passed offline evals and its A/B test; an eval for that failure before shipping holds. Microsoft 365 Copilot: one email could make it send internal data out; never combining untrusted input, private data and a way out holds." src="assets/hero-light.svg">
 </picture>
 
 Every incident below is public and dated, with a primary source: the company's own postmortem, an advisory, a paper or a court decision. No vendor marketing, and no retellings when the original is reachable. Every control still works when the model is wrong. Sections are named after the situation you're in, so start from yours. Lines in italics are mine: I build agents that read customer email and book trips with the customer's money, with no human in the loop.
