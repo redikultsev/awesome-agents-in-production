@@ -1,0 +1,18 @@
+# Link check settings, used by .github/workflows/links.yml
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+
+# 429 means the site rate-limited the checker, not that the page is gone
+accept = ["200..=299", "429"]
+
+# These sites block automated clients. Check them by hand
+exclude = [
+  '^https://openai\.com/',
+  '^https://venturebeat\.com/',
+  '^https://ai\.meta\.com/',
+  '^https://decisions\.civilresolutionbc\.ca/',
+]
