@@ -112,7 +112,7 @@ The usual failure is a check whose input was produced by the thing being checked
 | 💸  | 2025‑04 | [Cursor's support bot invents a login policy](https://incidentdatabase.ai/cite/1039/)                                                                       | The AI support agent explained a logout bug with a one-device policy that did not exist. Users cancelled, and the company learned about it from Reddit and Hacker News rather than its own monitoring.   |
 
 <details>
-<summary><b>Controls (7)</b></summary>
+<summary><b>Controls (8)</b></summary>
 
 - [OpenTelemetry GenAI agent spans](https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/gen-ai-agent-spans.md) - A vendor-neutral span schema for agents and tool calls, still at Development status. Prompt and response content is opt-in and flagged as likely PII. *We saw the same symptom twice from two causes: greedy decoding sent a reasoning model into a loop its model card warned about, and later a provider alias quietly moved to another model. Nothing in our config had changed. In the alias case the logs pointed nowhere, and only traces showed which model had answered.*
 - [OpenInference](https://github.com/Arize-ai/openinference) - Conventions and instrumentation on top of OpenTelemetry with typed LLM, tool, agent and retriever spans.
@@ -121,6 +121,7 @@ The usual failure is a check whose input was produced by the thing being checked
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Self-hosted tracing, evals and experiments for comparing prompt or model changes. Elastic 2.0, source-available.
 - [Docent](https://transluce.org/docent/blog/introducing-docent) - Summarises, searches and clusters agent transcripts; it found broken tasks and a leaked flag in public benchmarks.
 - [Clio](https://www.anthropic.com/research/clio) - Privacy-preserving monitoring of production conversations: extract facets, cluster them, describe the clusters, enforce minimum cluster sizes.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted Vue 3 dashboard that reads an OpenClaw agent's local session files and gateway WebSocket to report per-session and per-model token usage, session state and 7-day trends. Token counts come from real API usage when the session log includes it and from a documented heuristic otherwise, so treat them as counts, not billing.
 
 </details>
 
